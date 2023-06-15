@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8076
+EXPOSE 8157
 ADD target/devops-integration.jar devops-integration.jar
 ENTRYPOINT ["java","-jar","/devops-integration.jar"]
